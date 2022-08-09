@@ -1,0 +1,48 @@
+.catalog {
+    padding: 100px 0;
+
+    .cl {
+        background-image: url("../images/image-asset.jpeg");
+
+        h1 {
+            font-weight: 300;
+            font-style: italic;
+            font-size: 50px;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+    }
+
+    .cm {
+        background-image: url("../images/image-asset.jpeg");
+        h1 {
+            font-weight: 300;
+            font-style: italic;
+            font-size: 50px;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+
+    .cr {
+        background-image: url("../images/product-8-img-1.jpg");
+        h1 {
+            font-weight: 300;
+            font-style: italic;
+            font-size: 50px;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+.features{
+    padding: 5rem 0;
+    .features-items{
+      .featured-item{
+        width:100%;
+        padding: 0 15px;
+        &:hover{
+          .img-text{
+            span{
+              opacity: 0;
+              transform: translateX(15px);
+            }
+            .btn-add{
+              opacity: 1;
+              right: 0;
+            }
+          }
+        }
+        .img-text{
+          position: relative;
+          span{
+            transition: .4s;
+          }
+          .btn-add{
+            position: absolute;
+            right: 15px;
+            top: 8px;
+            opacity: 0;
+            transition: .4s;
+          }
+        }
+      }
+    }
+  }

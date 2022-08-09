@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.my-5 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.header1 {
+  background-color: #F6F6F6;
+  padding: 7px;
+}
+.header1 .h1l i {
+  color: #68745C;
+  padding-right: 15px;
+}
+.header1 .h1m p {
+  color: #68745C;
+  font-weight: 500;
+}
+.header1 .h1m a {
+  color: black;
+  font-weight: 500;
+}
+.header1 .h1r a {
+  color: #68745C;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.logo {
+  background-color: #68745C;
+}
+.logo .logo-img img {
+  margin-left: 44.7%;
+  height: 115px;
+  width: 100px;
+  padding: 10px 0;
+}
+
+.header2 .container1 {
+  width: 50%;
+  margin: auto;
+}
+.header2 .h2menu ul a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: black;
+  transition: 0.5s;
+  padding: 20px 0;
+}
+.header2 .h2menu ul a:hover {
+  color: #68745C;
+}
+.header2 .h2menu ul i {
+  font-size: 30px;
+}
+
+.photo-section {
+  background-image: url("../images/559-5599740_girl-for-cosmetics-png-transparent-png.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photo-section .writing-part {
+  padding: 80px 100px;
+  color: #68745C;
+  font-size: 30px;
+  width: 700px;
+}
+.photo-section .writing-part p {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.features {
+  padding: 5rem 0;
+}
+.features .features-items .featured-item {
+  width: 100%;
+  padding: 0 15px;
+}
+.features .features-items .featured-item:hover .img-text span {
+  opacity: 0;
+  transform: translateX(15px);
+}
+.features .features-items .featured-item:hover .img-text .btn-add {
+  opacity: 1;
+  right: 0;
+}
+.features .features-items .featured-item .img-text {
+  position: relative;
+}
+.features .features-items .featured-item .img-text span {
+  transition: 0.4s;
+}
+.features .features-items .featured-item .img-text .btn-add {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.catalog {
+  padding: 100px 0;
+}
+.catalog .cl {
+  background-image: url("../images/image-asset.jpeg");
+}
+.catalog .cl h1 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+}
+.catalog .cl p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.catalog .cm {
+  background-image: url("../images/image-asset.jpeg");
+}
+.catalog .cm h1 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+}
+.catalog .cm p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.catalog .cr {
+  background-image: url("../images/product-8-img-1.jpg");
+}
+.catalog .cr h1 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+}
+.catalog .cr p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.video-section iframe {
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/h1-video-img-1-2048x693.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #F8F9F7;
+}
+.footer .container1 {
+  padding: 0 160px;
+}
+.footer h1 {
+  color: #2F3327;
+}
+.footer .fl {
+  width: 50%;
+  padding: 100px;
+}
+.footer .fr {
+  width: 50%;
+}
+.footer .fr p ul li {
+  color: #AAACA9;
+}
+
+.container hr {
+  height: 1px;
+  color: rgb(0, 0, 0);
+  padding: 1px;
+}
+
+.f-bottom .footer-footer .f1 .f-logo {
+  padding: 5px;
+}
+.f-bottom .footer-footer .f1 .f-copyright p {
+  color: #AAACA9;
+  padding: 0 20px;
+}
+.f-bottom .footer-footer .f-followUs p a {
+  color: black;
+  padding: 0 10px;
+}/*# sourceMappingURL=style.css.map */
